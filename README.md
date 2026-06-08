@@ -10,9 +10,12 @@
 ## Domain
 
 <!-- What topic or category of knowledge does your system cover?
+     Cybersecurity Vulnerabilities and advisories
+
      Why is this knowledge valuable, and why is it hard to find through official channels?
-     Example: "Student reviews of CS professors at [university] — useful because official
-     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+     Common Vulnerabilities and Exposures databases (CVEs) are searchable by ID or specific keyword only, and considering that CVEs follow a consistent format (ID, description, severity, references), but the descriptions vary widely across vulnerabilities — from buffer overflows to misconfigurations. This balance of structure + diversity is perfect for embeddings.
+
+ -->
 
 ---
 
@@ -22,18 +25,11 @@
      Be specific: include URLs, subreddit names, forum thread titles, or file names.
      Aim for variety — sources that together cover different subtopics or perspectives. -->
 
-| # | Source | Type | URL or file path |
-|---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| # | Source  | Type      | URL or file path                          |
+|---|-------- |------     |-----------------                          |
+| 1 | CVE Org | JSON Bulk | https://www.cve.org/Downloads             |
+| 2 | NIST    | JSON Bulk | https://nvd.nist.gov/vulndata-feeds       |
+| 3 | CWE     | XML Bulk  | https://cwe.mitre.org/data/downloads.html |
 
 ---
 
