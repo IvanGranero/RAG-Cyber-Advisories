@@ -8,6 +8,7 @@
 Cybersecurity Vulnerabilities and advisories
 
 Common Vulnerabilities and Exposures databases (CVEs) are searchable by ID or specific keyword only, and considering that CVEs follow a consistent format (ID, description, severity, references), but the descriptions vary widely across vulnerabilities — from buffer overflows to misconfigurations. This balance of structure + diversity is perfect for embeddings.
+
 ---
 
 ## Document Sources
